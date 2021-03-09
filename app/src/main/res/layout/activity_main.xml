@@ -10,7 +10,7 @@
   <Button
       android:id="@+id/calenderButton"
       android:layout_gravity="center"
-      android:text="+"
+      android:text="New Event"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"/>
 
@@ -22,7 +22,7 @@
   <Button
       android:id="@+id/add_event_button"
       android:visibility="gone"
-      android:text="Add EVENT"
+      android:text="Add EVENT to Calender"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"/>
 

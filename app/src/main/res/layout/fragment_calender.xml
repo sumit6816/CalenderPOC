@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalenderFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:text="Enter Event Title"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <EditText
+            android:id="@+id/etTitle"
+            android:hint="Enter Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50sp">
+
+        <Button
+            android:id="@+id/btn_start_date_time"
+            android:text="Select Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_start_date"
+            android:text="Selected Date"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            android:text="Selected Time"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50sp">
+
+        <Button
+            android:id="@+id/btn_end_date_time"
+            android:text="Select End"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_end_date"
+            android:text="Selected Date"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            android:text="Selected Time"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/select_timezone"
+            android:textSize="40sp"
+            android:hint="SELECT TIME ZONE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:text="OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
